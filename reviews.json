@@ -2,11 +2,13 @@
   {
     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド",
     "rating": 5,
-    "comment": "自由度が高く、何度遊んでも新しい発見があります！"
+    "comment": "自由度が高く、何度遊んでも新しい発見があります！",
+    "image": "https://upload.wikimedia.org/wikipedia/ja/0/0b/BotW.jpg"
   },
   {
     "title": "スーパーマリオ オデッセイ",
     "rating": 4,
-    "comment": "楽しいけど、少し短めでした。"
+    "comment": "楽しいけど、少し短めでした。",
+    "image": "https://upload.wikimedia.org/wikipedia/ja/8/8e/Super_Mario_Odyssey.jpg"
   }
 ]
