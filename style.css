@@ -1,4 +1,3 @@
-/* 全体のスタイル */
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   max-width: 900px;
@@ -8,7 +7,6 @@ body {
   color: #333;
 }
 
-/* ヘッダー */
 header {
   text-align: center;
   margin-bottom: 50px;
@@ -25,10 +23,9 @@ header p {
   font-size: 1.1em;
 }
 
-/* レビューカード */
 .review {
   background-color: #fff;
-  padding: 20px;
+  padding: 15px;
   margin-bottom: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.08);
@@ -40,22 +37,32 @@ header p {
   box-shadow: 0 8px 16px rgba(0,0,0,0.12);
 }
 
-/* レビュータイトル */
-.review h2 {
+.review-content {
+  display: flex;
+  gap: 20px;
+}
+
+.review-img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.review-text h2 {
   margin: 0 0 10px 0;
   font-size: 1.4em;
   color: #2c3e50;
 }
 
-/* 評価星 */
-.review .rating {
-  color: #f39c12; /* オレンジ色 */
+.review-text .rating {
+  color: #f39c12;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* コメント */
-.review p {
+.review-text p {
   line-height: 1.6;
   color: #555;
 }
