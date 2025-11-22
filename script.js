@@ -6,7 +6,7 @@ fetch('reviews.json')
       const div = document.createElement('div');
       div.className = 'review';
 
-      // 星の生成
+      // 星の生成（整数と半分星対応）
       const fullStars = Math.floor(review.rating);
       const halfStar = review.rating % 1 >= 0.5;
       let starsHtml = '★'.repeat(fullStars);
